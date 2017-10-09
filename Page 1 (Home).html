@@ -95,13 +95,31 @@ nav ul ul ul{
 .badan{
 	height: 550px;
 }
+
+.button {
+    background-color: #ACCE22; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
 /*bagian sidebar*/
 .badan .sidebar{
-	background: white;
+	background-color: white;
 	text-align: center;
-	float: left;	
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	width: 25%;
-	height: 100%;
+	height: 70%;
 }
  
 /*akhir sidebar*/
@@ -109,10 +127,8 @@ nav ul ul ul{
 .badan .content{
 	float: left;
 	height: 100%;
-	width: 75%;
+	width: 72.3%;
 	max-width: 1200px;
-	position: relative;
-	margin: auto;	
 }
 
 .prev, .next {
@@ -161,48 +177,43 @@ nav ul ul ul{
 <div class="navbar">
 	<nav>
 		<ul>
-			<li><a href="alamatnya">Home</a></li>
+			<li><a href="Page 1 (Home).html">Home</a></li>
 			<li><a href="#">View</a></li>
-			<li><a href="#">List</a>
+			<li><a href="Page 2 (List).html">List</a>
 				<ul>
 					<li><a href="alamatnya">Wisata Budaya</a></li>
 					<li><a href="alamatnya">Wisata Alam</a></li>
 				</ul>
 			</li>
-			<li><a href="#">About Us</a></li>
-			<a href="#Menu4"><img src="Picture\Line.png" width=3%></a>
-			<a href="#menu5"><img src="Picture\Twitter.png" width=3%></a>
-			<a href="#menu6"><img src="Picture\Instagram.png" width=3%></a>
+			<li><a href="Page 5 (About Us).html">About Us</a></li>
+			<a href="#Menu4"><img src="Gambar\Line.png" width=3%></a>
+			<a href="#menu5"><img src="Gambar\Twitter.png" width=3%></a>
+			<a href="#menu6"><img src="Gambar\Instagram.png" width=3%></a>
 		</ul>
 	</nav>
 </div>
 <div class="badan">			
 	<div class="sidebar">
-		<img src="Picture\Bandung.png" style="width:20%">
+		<img src="Gambar\Bandung.png" style="width:20%">
 		<h3>Pariwisata Kota Bandung</h3>
 		<p>Mengembangkan Sumber Daya Manusia dan Kelembagaan Kepariwisataan yang profesional, berkarakteristik sunda dan berwawasan global;<br>Meningkatkan pelestarian, pemberdayaan pengembangan  dan pemanfaatan kebudayaan dan kesenian;
 		<br>Meningkatkan destinasi pariwisata kota yang berdaya saing tinggi baik pada tingkat regional nasional maupun internasional;</p>
-		<a class="visit" href="#visit">Visit Now</a>
+		<a href="#" class="button">Visit Now</a>
 	</div>
 	<div class="content">
 		<div class="mySlides fade">
-			<img src="Picture\Page1.1.png" style="width:100%">
+			<img src="Gambar\Page1.1.png" style="width:100%">
 		</div>
 
 		<div class="mySlides fade">
-			<img src="Picture\Page1.2.png" style="width:100%">
+			<img src="Gambar\Page1.2.png" style="width:100%">
 		</div>
 		
 		<div class="mySlides fade">
-			<img src="Picture\Page1.3.png" style="width:100%">
+			<img src="Gambar\Page1.3.png" style="width:100%">
 		</div>
 		<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 		<a class="next" onclick="plusSlides(1)">&#10095;</a>
-	</div>
-	<div style="text-align:center">
-		<span class="dot" onclick="currentSlide(1)"></span> 
-		<span class="dot" onclick="currentSlide(2)"></span> 
-		<span class="dot" onclick="currentSlide(3)"></span> 
 	</div>
 </div>
 <script type="text/javascript">
