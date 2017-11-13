@@ -1,0 +1,30 @@
+		body 
+		{
+			text-align: center;
+			padding: 10px	
+			width: 80%;
+		}
+		.marjan{
+			margin-left: 200px;
+			margin-right: 200px;
+		}
+		.marjan .kiri{
+			background: #E0FFFF;
+			float: left;	
+			width: 35%;
+		}
+		.marjan .kanan{
+			background: #E0FFFF;
+			float: right;
+			width: 35%;
+		}
+		.marjan .tengah{
+			background: #E0FFFF;
+			padding-left: 40px;
+			padding-right: 40px;
+			padding-top: 40px;
+			padding-bottom: 40px;
+		}
+		h1, h2 {
+			font-family: 'Tangerine', cursive;
+		}
