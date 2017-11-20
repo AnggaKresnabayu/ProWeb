@@ -1,0 +1,25 @@
+	<style>
+	.p2-center{
+		text-align: center;
+	}
+	div.p2-row{
+		float: center;
+	}
+	div.p2-one{
+		margin-bottom: 10px;
+    	float: left;
+    	width: 100%;
+	}
+	div.p2-two{
+		margin-bottom: 10px;
+    	float: left;
+    	width: 450px;
+	}
+	div.p2-third{
+		margin-bottom: 10px;
+		float: left;
+    	width: 445px;
+	}
+	body,h1 {font-family: "Montserrat", sans-serif}
+	img {margin-bottom: -7px}
+	</style>

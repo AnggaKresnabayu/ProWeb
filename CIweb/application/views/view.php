@@ -3,49 +3,25 @@
 <head>
 	<title>Objek Wisata Bandung</title>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento|Tangerine" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="Navbar.css">
-	<style>
-	.p2-center{
-		text-align: center;
-	}
-	div.p2-row{
-		float: center;
-	}
-	div.p2-one{
-		margin-bottom: 10px;
-    	float: left;
-    	width: 100%;
-	}
-	div.p2-two{
-		margin-bottom: 10px;
-    	float: left;
-    	width: 450px;
-	}
-	div.p2-third{
-		margin-bottom: 10px;
-		float: left;
-    	width: 445px;
-	}
-	body,h1 {font-family: "Montserrat", sans-serif}
-	img {margin-bottom: -7px}
-	</style>
+	<link href="<?php echo base_url(); ?>css/Navbar.css" rel="stylesheet">
+	<link href="<?php echo base_url(); ?>css/View.css" rel="stylesheet">
 </head>
 <body background="Gambar/cloud.jpg">
 <div class="navbar">
 	<nav>
 		<ul>
-			<li><a href="Page 1 (Home).html">Home</a></li>
-			<li><a href="Page 1.5 (View).html">View</a></li>
-			<li><a href="Page 2 (List).html">List</a>
+			<li><a href="<?php echo base_url(); ?>home">Home</a></li>
+			<li><a href="<?php echo base_url(); ?>view">View</a></li>
+			<li><a href=#>List</a>
 				<ul>
-					<li><a href="Page 3 (List1).html">Wisata Budaya</a></li>
-					<li><a href="Page 4 (List2).html">Wisata Alam</a></li>
+					<li><a href="<?php echo base_url(); ?>lst">Wisata Budaya</a></li>
+					<li><a href="<?php echo base_url(); ?>lts">Wisata Alam</a></li>
 				</ul>
 			</li>
-			<li><a href="Page 5 (About Us).html">About Us</a></li>
-			<a href="#Menu4"><img src="Gambar\Line.png" width=3%></a>
-			<a href="#menu5"><img src="Gambar\Twitter.png" width=3%></a>
-			<a href="#menu6"><img src="Gambar\Instagram.png" width=3%></a>
+			<li><a href="<?php echo base_url(); ?>about">About Us</a></li>
+			 <a href="https://facebook.com/"><img src=".\Gambar\facebook.png" width=2.5%></a>
+      <a href="https://twitter.com/"><img src=".\Gambar\twitter2.png" width=2.5%></a>
+      <a href="https://instagram.com/"><img src=".\Gambar\instagram1.png" width=2.5%></a>
 		</ul>
 	</nav>
 </div>

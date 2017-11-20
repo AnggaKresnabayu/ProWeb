@@ -4,119 +4,36 @@
 	<meta charset="utf-8">
 	<title>Objek Wisata Bandung</title>
 	<link href="https://fonts.googleapis.com/css?family=Sacramento|Tangerine" rel="stylesheet">
-<style>
-.badan{
-	font-family: 'Open Sans Condensed', sans-serif;
-	height: 550px;
-}
-
-.button {
-    background-color: #008B8B; 
-    border: none;
-    color: #fff;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-}
-
-/*bagian sidebar*/
-.badan .sidebar{
-	background-color: white;
-	text-align: center;
-	float: left;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 40px;
-	padding-bottom: 40px;
-	width: 25%;
-	height: 70%;
-}
- 
-/*akhir sidebar*/
- 
-.badan .content{
-
-	float: right;
-	height: 100%;
-	width: 70%;
-}
-
-.prev, .next {
-	cursor: pointer;
-	position: absolute;
-	top: 50%;
-	width: auto;
-	margin-top: -22px;
-	padding: 16px;
-	color: white;
-	font-weight: bold;
-	font-size: 18px;
-	transition: 2s ease;
-	border-radius: 0 3px 3px 0;
-}
-.numbertext{
-	color: ;
-	font-size: 12px;
-	padding: 8px 12px;
-	position: center;
-	top: 50%;
-}
-
-.next {
-	right: 0;
-	border-radius: 3px 0 0 3px;
-}
-
-.dot {
-	cursor:pointer;
-	height: 13px;
-	width: 13px;
-	
-	margin: 0 2px;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
-	transition: background-color 2s ease;
-}
-h1 {
-	font-family: 'Tangerine', cursive;
-}
-a{
-	font-family: 'Sacramento', cursive;
-}
-</style>    
+	<link href="<?php echo base_url(); ?>css/Navbar.css" rel="stylesheet">  
+	<link href="<?php echo base_url(); ?>css/Home.css" rel="stylesheet">  
 </head>
 
 <body  background="Gambar/cloud.jpg">
  <div class="navbar">
   <nav>
     <ul>
-      <li><a href="Page 1 (Home).html">Home</a></li>
-      <li><a href="Page 1.5 (View).html">View</a></li>
-      <li><a href="Page 2 (List).html">List</a>
+      <li><a href="<?php echo base_url(); ?>home">Home</a></li>
+      <li><a href="<?php echo base_url(); ?>view">View</a></li>
+      <li><a href=#>List</a>
         <ul>
-          <li><a href="Page 3 (List1).html">Wisata Budaya</a></li>
-          <li><a href="Page 4 (List2).html">Wisata Alam</a></li>
+          <li><a href="<?php echo base_url(); ?>lst">Wisata Budaya</a></li>
+          <li><a href="<?php echo base_url(); ?>lts">Wisata Alam</a></li>
         </ul>
       </li>
-      <li><a href="Page 5 (About Us).html">About Us</a></li>
-      <a href="https://facebook.com/"><img src="..\Gambar\facebook.png" width=2.5%></a>
-      <a href="https://twitter.com/"><img src="..\Gambar\twitter2.png" width=2.5%></a>
+      <li><a href="<?php echo base_url(); ?>about">About Us</a></li>
+      <a href="https://facebook.com/"><img src="Gambar\facebook.png" width=2.5%></a>
+      <a href="https://twitter.com/"><img src="Gambar\twitter2.png" width=2.5%></a>
       <a href="https://instagram.com/"><img src="Gambar\instagram1.png" width=2.5%></a>
     </ul>
   </nav>
 </div>
 <div class="badan">			
 	<div class="sidebar">
-		<img src="Gambar\Bandung.png" style="width:20%">
+		<img src=".\Gambar\Bandung.png" style="width:20%">
 		<h1>Pariwisata Kota Bandung</h1>
 		<p>Mengembangkan Sumber Daya Manusia dan Kelembagaan Kepariwisataan yang profesional, berkarakteristik sunda dan berwawasan global;<br>Meningkatkan pelestarian, pemberdayaan pengembangan  dan pemanfaatan kebudayaan dan kesenian;
 		<br>Meningkatkan destinasi pariwisata kota yang berdaya saing tinggi baik pada tingkat regional nasional maupun internasional;</p>
-		<a href="LogIn.html" class="button">Visit Now</a>
+		<a href="<?php echo base_url(); ?>login" class="button">Visit Now</a>
 	</div>
 	<div class="content">
 		<div class="mySlides fade">

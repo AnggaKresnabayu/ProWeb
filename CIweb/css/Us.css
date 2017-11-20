@@ -1,0 +1,51 @@
+<style>
+.badan{
+	height: 300px;
+}
+/*bagian sidebar*/
+.badan .sidebar{
+	background: #E0FFFF;;
+	text-align: center;
+	float: left;	
+	width: 46%;
+	height: 100%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+ 
+/*akhir sidebar*/
+ 
+.badan .content{
+	background: white;
+	text-align: center;
+	float: right;
+	height: 100%;
+	width: 50%;
+}
+
+.mantap{
+	height: 300px;
+}
+.mantap .sidebar{
+	text-align: center;
+	float: left;	
+	width: 100%;
+	height: 45%;
+	background: #008080;
+	padding-top: 20px
+}
+
+h1, h3 {
+	font-family: 'Tangerine', cursive;
+	color: #fff;
+}
+h2{
+	font-family: 'Tangerine', cursive;
+}
+p{
+	color:  #008080 ;
+}
+
+</style>  

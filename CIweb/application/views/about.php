@@ -3,75 +3,28 @@
 <head>
   <title>Objek Wisata Bandung</title>
   <link href="https://fonts.googleapis.com/css?family=Sacramento|Tangerine" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="Navbar.css">
+  <link href="<?php echo base_url(); ?>css/Navbar.css" rel="stylesheet">
+  <link href="<?php echo base_url(); ?>css/Us.css" rel="stylesheet">
+   
 </head>
-<style>
-.badan{
-	height: 300px;
-}
-/*bagian sidebar*/
-.badan .sidebar{
-	background: #E0FFFF;;
-	text-align: center;
-	float: left;	
-	width: 47%;
-	height: 80%;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
- 
-/*akhir sidebar*/
- 
-.badan .content{
-	background: white;
-	text-align: center;
-	float: right;
-	height: 93.2%;
-	width: 50%;
-}
-
-.form{
-	background: #008080;
-	height: 190px;
-	padding-top: 30px;
-	padding-left: 300px;
-	padding-right: 300px;
-}
-
-h1, h3 {
-	font-family: 'Tangerine', cursive;
-	color: #fff;
-}
-h2{
-	font-family: 'Tangerine', cursive;
-}
-p{
-	color:  #008080 ;
-}
-
-</style>    
-</head>
-
-<body background="Gambar/cloud.jpg">
-<div class="navbar">
-	<nav>
-		<ul>
-			<li><a href="Page 1 (Home).html">Home</a></li>
-      <li><a href="Page 1.5 (View).html">View</a></li>
-      <li><a href="Page 2 (List).html">List</a>
+<body  background="Gambar/cloud.jpg">
+ <div class="navbar">
+  <nav>
+    <ul>
+      <li><a href="<?php echo base_url(); ?>home">Home</a></li>
+      <li><a href="<?php echo base_url(); ?>view">View</a></li>
+      <li><a href=#>List</a>
         <ul>
-          <li><a href="Page 3 (List1).html">Wisata Budaya</a></li>
-          <li><a href="Page 4 (List2).html">Wisata Alam</a></li>
+          <li><a href="<?php echo base_url(); ?>lst">Wisata Budaya</a></li>
+          <li><a href="<?php echo base_url(); ?>lts">Wisata Alam</a></li>
         </ul>
       </li>
-      <li><a href="Page 5 (About Us).html">About Us</a></li>
+      <li><a href="<?php echo base_url(); ?>about">About Us</a></li>
       <a href="https://facebook.com/"><img src="Gambar\facebook.png" width=2.5%></a>
       <a href="https://twitter.com/"><img src="Gambar\twitter2.png" width=2.5%></a>
       <a href="https://instagram.com/"><img src="Gambar\instagram1.png" width=2.5%></a>
-		</ul>
-	</nav>
+    </ul>
+  </nav>
 </div>
 <div class="badan">			
 	<div class="sidebar">
@@ -86,8 +39,8 @@ p{
 		<p>Syafira Fitra Annisa (Teknik Informatika 2016)</p>
 	</div>	
 </div>
-<div class="form">
-	<div>
+<div class="mantap">
+	<div class="sidebar">
 		<h1 style="text-align: center">Terima kasih atas kunjungannya. Apabila anda mempunyai kritik dan saran terhadap kami. Silahkan kirim ke email kami</h1>
 		<h3 style="text-align: center">wisatabandungkeppo@gmail.com<h3>
 	</div>
