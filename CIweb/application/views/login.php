@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Objek Wisata Bandung</title>
-	<link href="<?php echo base_url(); ?>./css/LogIn.css" rel="stylesheet">
+	<link href="<?php echo base_url(); ?>css/LogIn.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width , initial-scale=1">
   </head>
   <body background="./Gambar/cloud.jpg">

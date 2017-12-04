@@ -3,26 +3,26 @@
 <head>
   <title>Objek Wisata Bandung</title>
   <link href="https://fonts.googleapis.com/css?family=Sacramento|Tangerine" rel="stylesheet">
-  <link href="<?php echo base_url(); ?>css/Navbar.css" rel="stylesheet">
-  <link href="<?php echo base_url(); ?>css/Us.css" rel="stylesheet">
-   
+  <link href="<?php echo base_url(); ?>css/Navbar.css" rel="stylesheet">  
+  <link href="<?php echo base_url(); ?>css/Us.css" rel="stylesheet">  
 </head>
-<body  background="Gambar/cloud.jpg">
+
+<body  background="<?php echo base_url(); ?>Gambar/cloud.jpg">
  <div class="navbar">
   <nav>
     <ul>
-      <li><a href="<?php echo base_url(); ?>home">Home</a></li>
-      <li><a href="<?php echo base_url(); ?>view">View</a></li>
+      <li><a href="home">Home</a></li>
+      <li><a href="view">View</a></li>
       <li><a href=#>List</a>
         <ul>
-          <li><a href="<?php echo base_url(); ?>lst">Wisata Budaya</a></li>
-          <li><a href="<?php echo base_url(); ?>lts">Wisata Alam</a></li>
+          <li><a href="lst">Wisata Budaya</a></li>
+          <li><a href="lts">Wisata Alam</a></li>
         </ul>
       </li>
-      <li><a href="<?php echo base_url(); ?>about">About Us</a></li>
-      <a href="https://facebook.com/"><img src="Gambar\facebook.png" width=2.5%></a>
-      <a href="https://twitter.com/"><img src="Gambar\twitter2.png" width=2.5%></a>
-      <a href="https://instagram.com/"><img src="Gambar\instagram1.png" width=2.5%></a>
+      <li><a href="about">About Us</a></li>
+      <a href="https://facebook.com/"><img src="<?php echo base_url(); ?>Gambar\facebook.png" width=2.5%></a>
+      <a href="https://twitter.com/"><img src="<?php echo base_url(); ?>Gambar\twitter2.png" width=2.5%></a>
+      <a href="https://instagram.com/"><img src="<?php echo base_url(); ?>Gambar\instagram1.png" width=2.5%></a>
     </ul>
   </nav>
 </div>
@@ -33,7 +33,7 @@
 	</div>
 	<div class="content">
 		<h2>Founder</h2>
-		<p><img src="Gambar\Tasya.png" width=8%><img src="Gambar\Angga.png" width=8%><img src="Gambar\Fira.png" width=8%></p>
+		<p><img src="<?php echo base_url(); ?>Gambar\Tasya.png" width=8%><img src="<?php echo base_url(); ?>Gambar\Angga.png" width=8%><img src="<?php echo base_url(); ?>Gambar\Fira.png" width=8%></p>
 		<p>Tasya Amanda Adinegara (Teknik Informatika 2016)</p>
 		<p>Angga Kresnabayu (Teknik Informatika 2016)</p>
 		<p>Syafira Fitra Annisa (Teknik Informatika 2016)</p>

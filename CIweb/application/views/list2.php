@@ -3,25 +3,26 @@
 <head>
   <title>Objek Wisata Bandung</title>
   <link href="https://fonts.googleapis.com/css?family=Sacramento|Tangerine" rel="stylesheet">
-	<link href="<?php echo base_url(); ?>css/Navbar.css" rel="stylesheet">  
-	<link href="<?php echo base_url(); ?>css/Grid.css" rel="stylesheet"> 
+  <link href="<?php echo base_url(); ?>css/Navbar.css" rel="stylesheet">  
+  <link href="<?php echo base_url(); ?>css/Grid.css" rel="stylesheet">  
 </head>
-<body  background="Gambar/cloud.jpg">
+
+<body  background="<?php echo base_url(); ?>Gambar/cloud.jpg">
  <div class="navbar">
   <nav>
     <ul>
-      <li><a href="<?php echo base_url(); ?>home">Home</a></li>
-      <li><a href="<?php echo base_url(); ?>view">View</a></li>
+      <li><a href="home">Home</a></li>
+      <li><a href="view">View</a></li>
       <li><a href=#>List</a>
         <ul>
-          <li><a href="<?php echo base_url(); ?>lst">Wisata Budaya</a></li>
-          <li><a href="<?php echo base_url(); ?>lts">Wisata Alam</a></li>
+          <li><a href="lst">Wisata Budaya</a></li>
+          <li><a href="lts">Wisata Alam</a></li>
         </ul>
       </li>
-      <li><a href="<?php echo base_url(); ?>about">About Us</a></li>
-      <a href="https://facebook.com/"><img src="Gambar\facebook.png" width=2.5%></a>
-      <a href="https://twitter.com/"><img src="Gambar\twitter2.png" width=2.5%></a>
-      <a href="https://instagram.com/"><img src="Gambar\instagram1.png" width=2.5%></a>
+      <li><a href="about">About Us</a></li>
+      <a href="https://facebook.com/"><img src="<?php echo base_url(); ?>Gambar\facebook.png" width=2.5%></a>
+      <a href="https://twitter.com/"><img src="<?php echo base_url(); ?>Gambar\twitter2.png" width=2.5%></a>
+      <a href="https://instagram.com/"><img src="<?php echo base_url(); ?>Gambar\instagram1.png" width=2.5%></a>
     </ul>
   </nav>
 </div>
@@ -40,53 +41,53 @@
 <div class="p2-row" id="myGrid" style="margin-bottom:128px">
   <div class="p2-one">
   	<a href="Page 4.1.html">
-  	<img src="Gambar/Glamping.jpg" style="width:100%">
+  	<img src="<?php echo base_url(); ?>Gambar/Glamping.jpg" style="width:100%">
   </a>
   	<a href="Page 4.2.html">
-    <img src="Gambar/Maribaya.jpg" style="width:100%">
+    <img src="<?php echo base_url(); ?>Gambar/Maribaya.jpg" style="width:100%">
    </a>
    <a href="Page 4.1.html">
-   	<img src="Gambar/DusunBambu.jpg" style="width:100%">
+   	<img src="<?php echo base_url(); ?>Gambar/DusunBambu.jpg" style="width:100%">
    </a>
     <a href="Page 4.2.html">
-   	<img src="Gambar/TangkubanPerahu1.jpg" style="width:100%">
+   	<img src="<?php echo base_url(); ?>Gambar/TangkubanPerahu1.jpg" style="width:100%">
    </a>
     <a href="Page 4.1.html">
-   	<img src="Gambar/RancaUpas.jpg" style="width:100%">
+   	<img src="<?php echo base_url(); ?>Gambar/RancaUpas.jpg" style="width:100%">
    </a>
   </div>
  <div class="p2-two">
  	<a href="Page 4.2.html">
- 	<img src="Gambar/SituPatenggang1.jpg" style="width:100%">
+ 	<img src="<?php echo base_url(); ?>Gambar/SituPatenggang1.jpg" style="width:100%">
  	</a>
  	<a href="Page 4.1.html">
-    <img src="Gambar/FloatingMarket.jpg" style="width:100%">
+    <img src="<?php echo base_url(); ?>Gambar/FloatingMarket.jpg" style="width:100%">
 	</a>
 	<a href="Page 4.2.html">
-   	<img src="Gambar/Strawberry.jpg" style="width:100%">
+   	<img src="<?php echo base_url(); ?>Gambar/Strawberry.jpg" style="width:100%">
    </a>
    <a href="Page 4.1.html">
-   	<img src="Gambar/LodgeMaribaya.jpg" style="width:100%">
+   	<img src="<?php echo base_url(); ?>Gambar/LodgeMaribaya.jpg" style="width:100%">
    	</a>
    	<a href="Page 4.2.html">
-   	<img src="Gambar/KawahPutih.jpg" style="width:100%">
+   	<img src="<?php echo base_url(); ?>Gambar/KawahPutih.jpg" style="width:100%">
    </a>
   </div>
   <div class="p2-third">
   	<a href="Page 4.1.html">
-  	<img src="Gambar/HutanRaya.jpg" style="width:100%">
+  	<img src="<?php echo base_url(); ?>Gambar/HutanRaya.jpg" style="width:100%">
   	</a>
   	<a href="Page 4.2.html">
-    <img src="Gambar/DeRanch.jpg" style="width:100%">
+    <img src="<?php echo base_url(); ?>Gambar/DeRanch.jpg" style="width:100%">
 	</a>
 	<a href="Page 4.1.html">
-   	<img src="Gambar/PuncakBintang.jpg" style="width:100%">
+   	<img src="<?php echo base_url(); ?>Gambar/PuncakBintang.jpg" style="width:100%">
    </a>
    <a href="Page 4.2.html">
-   	<img src="Gambar/TebingKeraton.jpg" style="width:100%">
+   	<img src="<?php echo base_url(); ?>Gambar/TebingKeraton.jpg" style="width:100%">
    </a>
    <a href="Page 4.1.html">
-   	<img src="Gambar/Manglayang.jpg" style="width:100%">
+   	<img src="<?php echo base_url(); ?>Gambar/Manglayang.jpg" style="width:100%">
 	</a>
   </div>
 </div>
