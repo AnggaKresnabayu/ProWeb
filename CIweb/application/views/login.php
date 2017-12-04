@@ -13,8 +13,8 @@
           <h2>Silahkan Login :)</h2> <!-- membuat judul pembuka -->
 
           <form class="fl" action="" method="post">
-            <input class="itpw" type="text" name="username" placeholder="Username or Email"><br>
-            <input class="itpw" type="password" name="password" placeholder="Password"><br>
+            <input class="itpw" name="username" id="username" type="text" placeholder="Username"><br>
+            <input class="itpw" name="password" id="password" type="password" placeholder="Password"><br>
             <input class="its" type="submit" name="login" value="LOGIN">
           </form>
 
