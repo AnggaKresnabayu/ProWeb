@@ -12,12 +12,19 @@
 
           <h2>Silahkan Login :)</h2> <!-- membuat judul pembuka -->
 
+          <?php if (isset($_SESSION['error'])){ ?>
+      <div class="validasi-error"> <?php echo $_SESSION['error']; ?></div>
+      <?php
+      } ?>
+
+      <?php echo validation_errors('<div class="validasi-error">','</div>'); ?>
+
           <form class="fl" action="" method="post">
             <input class="itpw" name="username" id="username" type="text" placeholder="Username"><br>
             <input class="itpw" name="password" id="password" type="password" placeholder="Password"><br>
             <input class="its" type="submit" name="login" value="LOGIN">
           </form>
-          <a href="<?php echo base_url(); ?>index.php/auth/register">Silahkan register</a>
+          Belum punya akun? Silahkan <a href="<?php echo base_url(); ?>index.php/auth/register">register</a>
 
       </div>
 

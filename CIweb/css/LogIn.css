@@ -12,6 +12,18 @@
   position: absolute;
 }
 
+.sukses {
+  width: 92%;
+  padding: 13px 10px;
+  margin: 5px 0px;
+  background-color: #BFBFFF;
+  color:  #008080;
+}
+
+.validasi-error{
+  color: red;
+}
+
 .center {
   width: 350px;
   height: auto;
