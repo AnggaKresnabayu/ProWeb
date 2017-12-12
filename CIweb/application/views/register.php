@@ -15,10 +15,10 @@
 
 		<p>Fill in the details to register on our website!</p>
 		<?php if (isset($_SESSION['success'])){?>
-			<div class="alert alert-success"> <?php echo $_SESSION['success']; ?></div>
+			<div class="sukses"> <?php echo $_SESSION['success']; ?></div>
 			<?php
 		} ?>
-		<?php echo validation_errors('<div class="alert alert-danger">','</div>'); ?>
+		<?php echo validation_errors('<div class="validasi-error">','</div>'); ?>
 		<form class="fl" method="POST">
 		<div>
 				<label for="username">Username:</label>
@@ -56,6 +56,10 @@
 				<button class="its" name="register">Register</button>
 			</div>
 			<a href="<?php echo base_url(); ?>auth/login">Silahkan login</a>
+		</form>
+
+		<form action="login">
+			<button class="its" name="kelogin">Login</button>
 		</form>
 	</div>
 	</div>
