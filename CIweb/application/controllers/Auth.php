@@ -1,5 +1,11 @@
 <?php
 class Auth extends CI_Controller{
+	public function __construct()
+				{
+					parent::__construct();
+					$this->load->model('model_user');
+				}
+
 	public function logout(){
 		unset($_SESSION);
 		session_destroy();
@@ -27,7 +33,7 @@ class Auth extends CI_Controller{
 				$_SESSION['user_logged'] = TRUE;
 				$_SESSION['username'] = $user->username;
 
-				redirect("users/profile", "refresh");
+				redirect("home", "refresh");
 			}
 			else{
 				$this->session->set_flashdata("error", "No such account exists in database");
@@ -69,4 +75,18 @@ class Auth extends CI_Controller{
 
 		$this->load->view('register');
 	}
+	
+	public function tampil_data()
+				{
+					$data["users"] = $this->model_user->tampilAll();
+					$this->load->view('admin', $data);
+				}
+
+	public function edit_data()
+				{
+					$nip = $this->uri->segment(3);
+					$this->load->model('model_user');
+					$data["peg"] = $this->model_user->pilih($nip);
+					$this->load->view('edit', $data);
+				}
 }

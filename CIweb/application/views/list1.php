@@ -20,6 +20,9 @@
         </ul>
       </li>
       <li><a href="about">About Us</a></li>
+	  <li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li>
+	  <li><a><?php echo $_SESSION['username']; ?></a></li>
+      <li><a href="<?php echo base_url(); ?>auth/logout">logout</a></li>
       <a href="https://facebook.com/"><img src="<?php echo base_url(); ?>Gambar\facebook.png" width=2.5%></a>
       <a href="https://twitter.com/"><img src="<?php echo base_url(); ?>Gambar\twitter2.png" width=2.5%></a>
       <a href="https://instagram.com/"><img src="<?php echo base_url(); ?>Gambar\instagram1.png" width=2.5%></a>
@@ -40,10 +43,10 @@
 <!-- Photo Grid -->
 <div class="p2-row" id="myGrid" style="margin-bottom:120px">
   <div class="p2-one">
-  	<a href="list1">
+  	<a href="<?php echo base_url(); ?>login/list1">
   	<img src="<?php echo base_url(); ?>Gambar/Braga.jpg" style="width:100%">
   </a>
-  	<a href="list2">
+  	<a href="<?php echo base_url(); ?>login/list2">
     <img src="<?php echo base_url(); ?>Gambar/Goa.jpg" style="width:100%">
    </a>
    <a href="list1">

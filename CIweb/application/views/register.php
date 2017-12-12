@@ -55,6 +55,7 @@
 			<div>
 				<button class="its" name="register">Register</button>
 			</div>
+			<a href="<?php echo base_url(); ?>auth/login">Silahkan login</a>
 		</form>
 	</div>
 	</div>

@@ -20,6 +20,9 @@
         </ul>
       </li>
       <li><a href="about">About Us</a></li>
+	  <li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li><li><a></a></li>
+	  <li><a><?php echo $_SESSION['username']; ?></a></li>
+      <li><a href="<?php echo base_url(); ?>auth/logout">logout</a></li>
       <a href="https://facebook.com/"><img src="<?php echo base_url(); ?>Gambar\facebook.png" width=2.5%></a>
       <a href="https://twitter.com/"><img src="<?php echo base_url(); ?>Gambar\twitter2.png" width=2.5%></a>
       <a href="https://instagram.com/"><img src="<?php echo base_url(); ?>Gambar\instagram1.png" width=2.5%></a>

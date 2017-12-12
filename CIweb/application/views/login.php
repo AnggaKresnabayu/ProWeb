@@ -17,7 +17,9 @@
             <input class="itpw" name="password" id="password" type="password" placeholder="Password"><br>
             <input class="its" type="submit" name="login" value="LOGIN">
           </form>
-          <a href="<?php echo base_url(); ?>index.php/auth/register">Silahkan register</a>
+          <a href="<?php echo base_url(); ?>auth/register">Silahkan register</a>
+		  <a>-----------------------------</a>
+		  <a href="<?php echo base_url(); ?>login">Kelola Web</a>
 
       </div>
 
